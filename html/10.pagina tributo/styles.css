@@ -1,0 +1,39 @@
+  h1{
+    color: white;
+    text-align: center;
+    background-color: red;
+    font-size: min(5vw, 1.2em);
+    text-align: center;
+
+}
+
+    form  {
+        background-color: white;
+        text-align: center;
+        margin-left: 200PX;
+        margin-right: 200px;
+    }
+    body{
+        background-image: url(https://thumbs.dreamstime.com/z/lego-logo-95061551.jpg);
+    }
+    img{
+        display: block;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+    }
+    footer {
+        background-color: red;
+        display: flex;
+        justify-content: center;
+        
+      }
+      
+      footer,
+      footer a {
+        color: #dfdfe2;
+        
+      }
+      
+    

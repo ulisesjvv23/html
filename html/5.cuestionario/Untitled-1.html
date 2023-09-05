@@ -1,0 +1,82 @@
+<!doctor html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>survery form</title>
+  <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">What is the best sports car? </h1>
+    <p id="description">choose according to your taste the best sports car</p>
+    <form id="survey-form">
+    <fieldset>
+      <label for="name" id="name-label"> Name <input id="name" name="name" type="text" placeholder="Enter Your Name" required  /></label>
+      <label for="email" id="email-label" > email <input id="email" name="email" type="email" placeholder="Enter Your Name" required /></label>
+      <label for="age" id="number-label" > age <input id="number-label" name="age" type="number" placeholder="age" min="10" max="120" required/></label>
+      
+    </fieldset>
+    
+    <fieldset>
+        <label for="the-sports-cars" id="" > the sports cars</label>
+      <select id="dropdown" name="role">
+        <option>select</option>
+        <option>Ford Mustang</option>
+        <option>Chevrolet Corvette</option>
+        <option>Jaguar xk</option>
+        <option>Ferrari 812 Superfast</option>
+        <option>Lamborghini Huracán</option>
+        <option>Porsche 718 cayman</option>
+        <option>Toyota Supra</option>
+        <option>Mercedes-Benz clase E Couoé </option>
+        <option>BMW M3</option>
+        <option>Aston Martin vantage </option>
+      </select>
+    </fieldset>
+      <fieldset>
+        <label for="I-Want-Have" id="number-labell" > I Want Have <input id="number" name="number" type="number" placeholder="number" min="1" max="10" required/></label>
+      </fieldset>
+      
+    
+      <fieldset>
+      <label for="modern-cars"><input id="modern cars" type="radio" name="cars-type" value="modern cars" class="model" checked /> modern cars </label>
+        <img class="car-1" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.digitaltrends.com%2Fautos%2Fcarros-deportivos%2F&psig=AOvVaw1mSP1Pbkuq2qVi6CcLfI9a&ust=1675540967635000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCKCbrteS-vwCFQAAAAAdAAAAABAE">
+      <label for="classic-cars"><input id="classic cars" type="radio" name="cars-type" value="classic cars" class="model" checked /> classic cars </label>
+      <img class="car-2" src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fgossipvehiculo.com%2Fwp-content%2Fuploads%2F2021%2F07%2Fcarbon-fiber-shelby-mustang-1600685276.jpg&imgrefurl=https%3A%2F%2Fgossipvehiculo.com%2F2021%2F07%2F26%2Flos-mejores-autos-clasicos-de-la-historia%2F&tbnid=OaGjexzDvBM7CM&vet=12ahUKEwi2-bHxkvr8AhXVxCkDHWsQC94QMygAegUIARDQAQ..i&docid=c3Ay1xxXqhz27M&w=980&h=654&q=carros%20deportivos%20clasicos&ved=2ahUKEwi2-bHxkvr8AhXVxCkDHWsQC94QMygAegUIARDQAQ">
+    </fieldset>
+    <fieldset>
+       
+        <label for="What-is-the-feature-you-like-about-cars?"> What is the feature you like about cars?</label>
+        <select id="dropdown" name="role"> 
+            <option>select</option>
+            <option>engine reliability</option>
+            <option>vehicle safety</option>
+            <option>correct size</option>
+            <option>a good trunk</option>
+            <option>Good materials and finishes</option>
+        </select>
+            </fieldset>
+            <fieldset>
+                
+                <label for="What-car-companies-do-you-like?">What car companies do you like?</label>
+                
+      
+                <label for="Ford"><input id="Ford" type="checkbox" name="Ford" value="1" class="list" checked /> Ford </label>
+                <label for="Chevrolet"><input id="Chevrolet" type="checkbox" name="Chevrolet" value="2" class="list" checked /> Chevrolet </label>
+                <label for="Jaguar"><input id="Jaguar" type="checkbox" name="Jaguar" value="3" class="list" checked /> Jaguar </label>
+                <label for="Ferrari"><input id="Ferrari" type="checkbox" name="Ferrari" value="4" class="list" checked /> Ferrari </label>
+                <label for="Lamborghini"><input id="Lamborghini" type="checkbox" name="Lamborghini" value="5" class="list" checked /> Lamborghini </label>
+                <label for="Porsche"><input id="Porsche" type="checkbox" name="Porsche" value="6" class="list" checked /> Porsche </label>
+                <label for="Toyota"><input id="Toyota" type="checkbox" name="Toyota" value="7" class="list" checked /> Toyota </label>
+                <label for="Mercedes-Benz"><input id="Mercedes-Benz" type="checkbox" name="Mercedes-Benz value=" value="8"class="list" checked /> Mercedes-Benz </label>
+                <label for="BMW"><input id="BMW" type="checkbox" name="BMW" value="9" class="list" checked /> BMW </label>
+                <label for="Aston-Martin"><input id="Aston-Martin" type="checkbox" name="Aston Martin" value="10" class="list" checked /> Aston Martin </label>
+                
+            </fieldset>
+            <fieldset>
+            <label for="your opinion"></label>
+                <textarea id="your opinion" name="your opinion"  placeholder="What do you like most about cars?"></textarea>
+            </fieldset>
+      <input id="submit" type="submit" value="submit"/>
+            </form>
+        </body>
+        </html>
